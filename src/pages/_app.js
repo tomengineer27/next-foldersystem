@@ -1,5 +1,13 @@
-import '@/styles/globals.css'
+import React from 'react'
+import { Context } from '@/components/SideBarContext'
+import '../styles/globals.css'
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <Context>
+      <Component {...pageProps} />
+    </Context>
+  )
 }
+
+export default MyApp

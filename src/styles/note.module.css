@@ -1,0 +1,68 @@
+.note {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 1px 0;
+  height: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white
+}
+
+.note .link {
+  width: 150px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white
+}
+
+.note input {
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+  margin-left: 10px;
+  box-sizing: border-box;
+  height: 22.5px;
+}
+
+.noteBtns {
+  display: flex;
+  gap: 3px;
+  margin-right: 5px;
+}
+
+.remove {
+  width: 28px;
+  height: 22.5px;
+  background-color: red;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.remove:hover {
+  background-color: rgba(255, 0, 0, 0.768);
+  cursor: pointer
+}
+
+.edit {
+  width: 28px;
+  height: 22.5px;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.edit:hover {
+  background-color: rgba(74, 74, 74, 0.507);
+  cursor: pointer
+}

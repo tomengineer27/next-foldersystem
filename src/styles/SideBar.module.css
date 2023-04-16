@@ -1,0 +1,88 @@
+.sideBar {
+  width:280px;
+  background-color: rgba(22, 22, 22, 0.7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(128, 128, 128, 0.508);
+}
+
+.sideBar h2 {
+  position: absolute;
+  left: 40px;
+  top: 3px;
+  user-select: none;
+  color: white
+}
+
+.toggleSideBar {
+  text-align: start;
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.hiddenSideBar {
+  min-width: 43px;
+  background-color: rgba(22, 22, 22, 0.7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.hiddenSideBar:hover {
+  background-color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:50px;
+}
+
+.options button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.options button:hover {
+  background-color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.toggleSideBar:hover {
+  background-color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+
+.mySpace {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.folders {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
